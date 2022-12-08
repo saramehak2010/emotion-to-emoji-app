@@ -33,7 +33,7 @@ function modelLoaded() {
     }
 }
 function check() {
-    img = document.getElementById('captured_iamge');
+    img = document.getElementById('captured_image');
     classifier.classify(img, gotResult);
 }
 
